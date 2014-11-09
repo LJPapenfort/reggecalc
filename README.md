@@ -16,3 +16,5 @@ Once an initial hypersurface triangulation and the edge length are given, the cl
 This class implements the interface to introduce the Regge equations and customized additional terms. A specialization is given by a cosmological constant term coupled to the Regge equations.
 - sorkin_stepper_t:
 Takes the triangulation and terms to compute a step-wise time evolution of the hypersurface. Internally the decoupled sets of equations emerging in the Sorkin triangulation are solved for the unknown squared edge lengths, using paralellized threads of Newton-Raphson iterations.
+
+It was written in the course of the master thesis "Cosmology on Simplicial Complexes" at the university of Bonn (GER) and is released under the MPL2.
