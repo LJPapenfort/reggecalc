@@ -5,7 +5,7 @@ Numerical library written in C++, using Boost and Eigen, to simulate the time ev
 
 The header-only library relies on C++11 and is multi-threaded, so it should be compiled with the appropriate compiler flags (e.g. on Linux: g++ -m64 -march=native -pthread -std=c++11). It expects the Boost and Eigen libraries in the lib path.
 
-It consists of serveral specialized template classes, implementing structures for the triangulation, the eqations and the time evolution. To start the time evolution a hypersurface triangulation of a closed 3-manifold, the initial squard edge lenghts on and between two hyersurfaces and optional additional terms to the Regge equations are needed.
+It consists of serveral specialized template classes, implementing structures for the triangulation, the equations and the time evolution. To start the time evolution a hypersurface triangulation of a closed 3-manifold, the initial squard edge lenghts on and between two hyersurfaces and optional additional terms to the Regge equations are needed.
 
 An example of how to use the objects is shown in the main.cpp. A class to construct a QPL hypersurface is given, along with initial edge lengths of the Kasner and Lambda-vacuum universe.
 
