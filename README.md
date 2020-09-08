@@ -18,4 +18,3 @@ This class implements the interface to introduce the Regge equations and customi
 Takes the triangulation and terms to compute a step-wise time evolution of the hypersurface. Internally the decoupled sets of equations emerging in the Sorkin triangulation are solved for the unknown squared edge lengths, using paralellized threads of Newton-Raphson iterations.
 
 It was written in the course of the master thesis "Cosmology on Simplicial Complexes" at the university of Bonn (GER) and is released under the MPL2. 
-You can get a copy here: https://tehserverer.softether.net/index.php/s/cRwGk08mUPaVyB6
